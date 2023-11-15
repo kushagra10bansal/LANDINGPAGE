@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Emporium</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+        }
+
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+        header h1{
+            font-family: 'Bebas Neue', sans-serif;
+            letter-spacing: 8px;
+            font-size: 45px;
+            font-weight: 900;
+        }
+        nav {
+            background-color: #000;
+            overflow: hidden;
+            text-align: right;
+            /* margin-right: ; */
+            margin-left: 280px;
+        }
+
+        nav a {
+            background-color: #7e36ab;
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: background-color 0.3s;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 500;
+            border-radius: 50px;
+        }
+
+        nav a:hover {
+            background-color: #333;
+        }
+
+        section {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 4em 0;
+            /* margin-bottom: 200px; */
+        }
+
+        section img {
+            max-width: 100%;
+            /* width: 400px; */
+            border-radius: 100px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .brand-info {
+            text-align: center;
+            margin: 2em;
+        }
+
+        .brand-info h2 {
+            color: #fff;
+            font-size: 40px;
+        }
+
+        .brand-info p {
+            color: #ccc;
+            font-size: 25px;
+            font-style: italic;
+        }
+
+        .explore-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 18px;
+            text-decoration: none;
+            background-color: #7e36ab;
+            color: #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .explore-btn:hover {
+            background-color: #7a2f82;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #000;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>FootFlex</h1>
+        <nav>
+            <a href="#new-release">New Release</a>
+            <a href="#men">Men</a>
+            <a href="#women">Women</a>
+            <a href="#kids">Kids</a>
+            <a href="#categories">Categories</a>
+            <a href="#search">Search</a>
+        </nav>
+    </header>
+
+    <section>
+        <img class="shoe" src="2V6HG5sFFxZXsZLsb26ZZR8ElTS.png" alt="New Release Shoes">
+        <div class="brand-info">
+            <h2>The Premium Sneakers Brand!</h2>
+            <p>Elevate Your Stride, Embrace the Style.</p>
+            <a href="#explore" class="explore-btn">ShadowTech Sneakers</a>
+            <a href="#explore" class="explore-btn">StealthStrike Kicks</a>
+            <a href="#explore" class="explore-btn">ArcticBreeze Footwear</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Shoe Emporium. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
